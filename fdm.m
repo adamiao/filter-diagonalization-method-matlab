@@ -4,21 +4,6 @@
 % 'Harmonic inversion of time signals and its applications', Journal of
 % Chemical Physics 107, 6756 (1997).
 % 
-%     Copyright (C) 2015 -  Alexandre Damião
-% 
-%     This program is free software: you can redistribute it and/or modify
-%     it under the terms of the GNU General Public License as published by
-%     the Free Software Foundation, either version 3 of the License, or
-%     (at your option) any later version.
-% 
-%     This program is distributed in the hope that it will be useful,
-%     but WITHOUT ANY WARRANTY; without even the implied warranty of
-%     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-%     GNU General Public License for more details.
-% 
-%     You should have received a copy of the GNU General Public License
-%     along with this program.  If not, see <http://www.gnu.org/licenses/>
-% 
 % This code will, from a given 1D signal, decompose it into:
 % 
 %           ----
@@ -61,7 +46,6 @@
 
 function [freq,growth,amp,phase]=fdm(signal,Fs,fmin,fmax,eps)
 
-clc
 
 % CREATION OF MATRICES U and S
 % ============================
